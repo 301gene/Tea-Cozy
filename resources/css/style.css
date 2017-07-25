@@ -1,3 +1,4 @@
+/* General rules */
 body {
   font-family: Helvetica;
   font-size: 22px;
@@ -8,6 +9,12 @@ body {
   margin: 0;
 }
 
+h2, h3, h4 {
+  padding: 10px;
+  margin: 0;
+}
+
+/* Header */
 header {
   position: fixed;
   height: 69px;
@@ -23,6 +30,7 @@ header img {
   padding-left: 10px;
 }
 
+/* Navigation section */
 nav {
   text-align: right;
   flex-grow: 1;
@@ -38,6 +46,7 @@ a {
   color: seashell;
 }
 
+/* Main Container */
 .main {
   width: 1200px;
   margin: auto;
@@ -45,10 +54,17 @@ a {
   padding-top: 69px;
 }
 
+/* Flex container */
 .flex-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+/* Mission container */
+#mission {
+  height: 700px;
+  background-image: url("../images/img-mission-background.jpg");
 }
 
 .content {
@@ -57,16 +73,7 @@ a {
   margin: auto;
 }
 
-h2, h3, h4 {
-  padding: 10px;
-  margin: 0;
-}
-
-#mission {
-  height: 700px;
-  background-image: url("../images/img-mission-background.jpg");
-}
-
+/* Store container */
 #store {
   height: 700px;
   width: 1000px;
@@ -80,6 +87,8 @@ h2, h3, h4 {
   margin: 10px;
 }
 
+
+/* Locations container */
 #locations {
   background-image: url("../images/img-locations-background.jpg");
   height: 440px;
@@ -102,10 +111,12 @@ h2, h3, h4 {
   margin: 5px 20px;
 }
 
+/* Contact container */
 #contact {
   height: 200px;
 }
 
+/* Footer */
 footer {
   text-align: left;
   padding-left: 20px;
